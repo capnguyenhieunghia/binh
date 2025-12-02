@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trái Cây Bình - Tinh Hoa Tươi Ngon & Chất Lượng Cao</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="description"
+        content="Trái Cây Bình chuyên cung cấp trái cây tươi ngon, nhập khẩu và nội địa chất lượng cao. Đặt hàng hoa quả sạch, an toàn giao hàng nhanh chóng.">
+    <meta name="keywords"
+        content="trái cây tươi, hoa quả sạch, trái cây nhập khẩu, trái cây chất lượng cao, đặt hoa quả online, trái cây giao hàng">
+        
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <a href="#hero" class="text-2xl font-extrabold text-green-600 tracking-tight flex items-center">
+                    <span class="text-yellow-500 mr-1 text-3xl">🍊</span> Bình
+                </a>
+
+                <!-- Menu Desktop -->
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#gioi-thieu"
+                        class="text-sm font-medium text-gray-600 hover:text-green-600 transition duration-150">Giới
+                        Thiệu</a>
+                    <a href="#san-pham"
+                        class="text-sm font-medium text-gray-600 hover:text-green-600 transition duration-150">Sản
+                        Phẩm</a>
+                    <a href="#chat-luong"
+                        class="text-sm font-medium text-gray-600 hover:text-green-600 transition duration-150">Chất
+                        Lượng</a>
+                    <a href="#cau-chuyen"
+                        class="text-sm font-medium text-gray-600 hover:text-green-600 transition duration-150">Câu
+                        Chuyện</a>
+                    <a href="#lien-he"
+                        class="text-sm font-medium text-gray-600 hover:text-green-600 transition duration-150">Liên
+                        Hệ</a>
+                </nav>
+
+                <!-- Nút Đặt Hàng/CTA Header -->
+                <a href="#lien-he"
+                    class="hidden md:inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-full shadow-sm text-white cta-button">
+                    ĐẶT HÀNG NGAY
+                </a>
+
+                <!-- Mobile Menu Button (Hamburger) -->
+                <button id="mobile-menu-button"
+                    class="md:hidden text-gray-600 hover:text-green-600 p-2 rounded-md transition duration-150">
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu (Hidden by default) -->
+        <div id="mobile-menu" class="hidden md:hidden">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="#gioi-thieu"
+                    class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-green-50 hover:text-green-600">Giới
+                    Thiệu</a>
+                <a href="#san-pham"
+                    class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-green-50 hover:text-green-600">Sản
+                    Phẩm</a>
+                <a href="#chat-luong"
+                    class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-green-50 hover:text-green-600">Chất
+                    Lượng</a>
+                <a href="#cau-chuyen"
+                    class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-green-50 hover:text-green-600">Câu
+                    Chuyện</a>
+                <a href="#lien-he"
+                    class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-green-50 hover:text-green-600">Liên
+                    Hệ</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 1. Hero Section (Phần Giới Thiệu Chính) -->
+    <section id="hero" class="pt-16 pb-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:grid lg:grid-cols-12 lg:gap-12 items-center">
+                <!-- Nội dung chính -->
+                <div class="lg:col-span-6 xl:col-span-5 mb-10 lg:mb-0">
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight mb-4">
+                        Tinh Hoa Trái Cây <span class="text-green-600">Tươi Ngon</span> Nhất
+                    </h1>
+                    <p class="text-xl text-gray-600 mb-8 max-w-lg">
+                        Khám phá bộ sưu tập hoa quả nhập khẩu và nội địa được tuyển chọn nghiêm ngặt. Cam kết Sạch, An
+                        Toàn và Giàu Dinh Dưỡng, mang hương vị thiên nhiên đến bàn ăn của bạn.
+                    </p>
+                    <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                        <a href="#san-pham"
+                            class="cta-button w-full sm:w-auto flex items-center justify-center px-8 py-3 border border-transparent text-base font-semibold rounded-full text-white shadow-xl hover:shadow-2xl">
+                            KHÁM PHẢO NGAY
+                        </a>
+                        <a href="#chat-luong"
+                            class="w-full sm:w-auto flex items-center justify-center px-8 py-3 border-2 border-green-600 text-base font-semibold rounded-full text-green-600 bg-white hover:bg-green-50 transition duration-150">
+                            Tìm hiểu về Chất lượng
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Hình ảnh Minh họa -->
+                <div class="lg:col-span-6 xl:col-span-7">
+                    <!-- Image Placeholder for a stunning fruit platter -->
+                    <img src="https://placehold.co/800x600/16a34a/ffffff?text=Tuy%E1%BB%83n+Ch%E1%BB%8Dn+Tr%C3%A1i+C%C3%A2y+%C4%90%E1%BA%B9p"
+                        alt="Bộ sưu tập trái cây tươi, đẹp mắt, chất lượng cao"
+                        onerror="this.onerror=null;this.src='https://placehold.co/800x600/16a34a/ffffff?text=Tr%C3%A1i+C%C3%A2y+%C4%90%E1%BA%B9p';"
+                        class="w-full h-auto object-cover rounded-3xl shadow-2xl transition duration-500 hover:scale-[1.01] transform">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. Value Proposition/Why Choose Us (Lý do chọn chúng tôi) -->
+    <section id="gioi-thieu" class="py-20 bg-green-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
+                Bình Khác Biệt
+            </h2>
+            <p class="text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
+                Chúng tôi không chỉ bán trái cây, chúng tôi mang đến trải nghiệm hương vị hoàn hảo và sự an tâm tuyệt
+                đối.
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Lợi ích 1 -->
+                <div
+                    class="bg-white p-6 md:p-8 rounded-2xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                    <div class="text-4xl mb-4 text-green-600">
+                        <!-- Icon: Leaf for Clean -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 mx-auto" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">SẠCH TỪ GỐC, AN TOÀN TUYỆT ĐỐI</h3>
+                    <p class="text-gray-600 text-sm">Trái cây được thu hoạch từ vườn đạt chuẩn Global GAP, không hóa
+                        chất độc hại, có giấy tờ kiểm định rõ ràng.</p>
+                </div>
+
+                <!-- Lợi ích 2 -->
+                <div
+                    class="bg-white p-6 md:p-8 rounded-2xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                    <div class="text-4xl mb-4 text-green-600">
+                        <!-- Icon: Truck for Fast Delivery -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 mx-auto" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">GIAO HÀNG SIÊU TỐC & TƯƠI MÁT</h3>
+                    <p class="text-gray-600 text-sm">Bảo quản lạnh xuyên suốt quá trình vận chuyển. Đảm bảo trái cây đến
+                        tay bạn trong tình trạng tươi ngon, nguyên vẹn nhất.</p>
+                </div>
+
+                <!-- Lợi ích 3 -->
+                <div
+                    class="bg-white p-6 md:p-8 rounded-2xl shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+                    <div class="text-4xl mb-4 text-green-600">
+                        <!-- Icon: Diamond for Premium -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 mx-auto" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M9 12l2 2l4-4m6 2a9 9 0 11-18 0a9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">HƯƠNG VỊ CAO CẤP</h3>
+                    <p class="text-gray-600 text-sm">Chỉ tuyển chọn các giống trái cây có hương vị đặc trưng, độ ngọt tự
+                        nhiên và kết cấu hoàn hảo. Phục vụ cả nhu cầu biếu tặng.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Product Showcase (Trưng bày Sản phẩm) -->
+    <section id="san-pham" class="py-20">
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 text-center mb-4">
+                Tuyển Chọn Trái Cây Đặc Sắc
+            </h2>
+            <div class="mb-12 max-w-lg mx-auto">
+                <input type="text" id="search-input" placeholder="Tìm kiếm tên sản phẩm (VD: Nho, Táo, Cherry...)"
+                    class="w-full px-5 py-3 border border-gray-300 rounded-full shadow-inner focus:ring-green-500 focus:border-green-500 transition duration-150">
+            </div>
+            <p id="data-status" class="text-center text-sm font-medium text-blue-600 mb-12">
+                Đang tải dữ liệu sản phẩm ...
+            </p>
+
+            <!-- KHU VỰC HIỂN THỊ SẢN PHẨM TỪ GOOGLE SHEET -->
+            <div id="product-list" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Sản phẩm sẽ được thêm vào đây bằng JavaScript -->
+            </div>
+
+            <!-- Nút CTA phụ -->
+            <div class="text-center mt-12">
+                <a href="#lien-he"
+                    class="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-semibold rounded-full text-white cta-button shadow-md">
+                    Xem Toàn Bộ Menu & Đặt Hàng
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Quality Commitment (Cam kết Chất lượng - Tối ưu SEO) -->
+    <section id="chat-luong" class="py-20 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:grid lg:grid-cols-2 lg:gap-12 items-start">
+                <div>
+                    <span class="text-sm font-semibold text-green-600 uppercase tracking-wider mb-2 block">TIÊU CHUẨN
+                        VÀNG</span>
+                    <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
+                        Cam Kết Chất Lượng <span class="text-green-600">Tuyệt Đối</span> Cho Từng Sản Phẩm
+                    </h2>
+
+                    <!-- Nội dung SEO chính -->
+                    <p class="text-gray-700 mb-4 leading-relaxed">
+                        Tại **Trái Cây Bình**, chúng tôi hiểu rằng để có được **trái cây tươi ngon** và **hoa quả
+                        sạch** đúng nghĩa, quy trình kiểm soát chất lượng phải được đặt lên hàng đầu. Đây là nơi nội
+                        dung SEO được tập trung: Chúng tôi cung cấp đa dạng các loại **trái cây nhập khẩu** (như Nho Mỹ,
+                        Cherry Úc, Táo New Zealand) và **trái cây nội địa** (như Dâu Tây Đà Lạt, Bưởi Da Xanh) được chọn
+                        lọc kỹ lưỡng.
+                    </p>
+                    <p class="text-gray-700 mb-6 leading-relaxed">
+                        Mọi lô hàng đều trải qua quy trình kiểm tra gắt gao về dư lượng thuốc bảo vệ thực vật, đảm bảo
+                        đạt chuẩn vệ sinh an toàn thực phẩm quốc tế. Chúng tôi cam kết truy xuất nguồn gốc rõ ràng (từ
+                        vườn trồng đến tay người tiêu dùng), mang đến sự an tâm tuyệt đối cho sức khỏe gia đình bạn. Hãy
+                        **đặt hoa quả online** ngay hôm nay để trải nghiệm sự khác biệt về **trái cây chất lượng cao**.
+                    </p>
+                </div>
+
+                <!-- Hình ảnh Minh họa quy trình -->
+                <div class="mt-8 lg:mt-0">
+                    <div class="space-y-6">
+                        <div class="flex items-start p-4 bg-white rounded-xl shadow-md">
+                            <span class="text-2xl text-green-500 mr-4">✓</span>
+                            <div>
+                                <h3 class="font-semibold text-gray-900">Kiểm Dịch Thực Vật Nghiêm Ngặt</h3>
+                                <p class="text-sm text-gray-600">Áp dụng cho 100% trái cây nhập khẩu. Đảm bảo không dịch
+                                    bệnh, an toàn tuyệt đối.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start p-4 bg-white rounded-xl shadow-md">
+                            <span class="text-2xl text-green-500 mr-4">✓</span>
+                            <div>
+                                <h3 class="font-semibold text-gray-900">Bảo Quản Chuẩn Chuỗi Lạnh</h3>
+                                <p class="text-sm text-gray-600">Sử dụng công nghệ Cold Chain để giữ độ tươi ngon,
+                                    Vitamin và khoáng chất tối đa.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start p-4 bg-white rounded-xl shadow-md">
+                            <span class="text-2xl text-green-500 mr-4">✓</span>
+                            <div>
+                                <h3 class="font-semibold text-gray-900">Chính Sách Đổi Trả 1 Đổi 1</h3>
+                                <p class="text-sm text-gray-600">Đổi trả ngay lập tức nếu sản phẩm không đạt chất lượng
+                                    cam kết (hư hỏng, dập nát).</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start p-4 bg-white rounded-xl shadow-md">
+                            <span class="text-2xl text-green-500 mr-4">✓</span>
+                            <div>
+                                <h3 class="font-semibold text-gray-900">Chính Sách Đổi Trả 1 Đổi 1</h3>
+                                <p class="text-sm text-gray-600">Đổi trả ngay lập tức nếu sản phẩm không đạt chất lượng
+                                    cam kết (hư hỏng, dập nát).</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Testimonial Section (Phản hồi Khách hàng) -->
+    <section class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 text-center mb-10">
+                Khách Hàng Nói Gì Về Chúng Tôi
+            </h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Lời chứng thực 1 -->
+                <div class="bg-white p-6 rounded-2xl shadow-xl border-t-4 border-yellow-500">
+                    <p class="text-lg italic text-gray-700 mb-4">"Nho nhập khẩu ở đây luôn tươi và giòn, không hề bị dập
+                        hay úng nước. Quan trọng là chất lượng ổn định qua nhiều lần mua. Rất đáng tiền!"</p>
+                    <div class="flex items-center">
+                        <img class="h-10 w-10 rounded-full object-cover mr-4"
+                            src="https://placehold.co/100x100/f3f4f6/374151?text=A" alt="Avatar Khách hàng A">
+                        <div>
+                            <p class="font-semibold text-gray-900">Chị Lan Anh</p>
+                            <p class="text-sm text-gray-500">Quận 3, TP.HCM</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Lời chứng thực 2 -->
+                <div class="bg-white p-6 rounded-2xl shadow-xl border-t-4 border-yellow-500">
+                    <p class="text-lg italic text-gray-700 mb-4">"Tôi thường xuyên mua làm quà biếu. Hộp quà được gói
+                        rất đẹp và sang trọng, trái cây bên trong tươi ngon đúng chuẩn cao cấp. Dịch vụ giao hàng cũng
+                        rất nhanh."</p>
+                    <div class="flex items-center">
+                        <img class="h-10 w-10 rounded-full object-cover mr-4"
+                            src="https://placehold.co/100x100/f3f4f6/374151?text=B" alt="Avatar Khách hàng B">
+                        <div>
+                            <p class="font-semibold text-gray-900">Anh Minh Tuấn</p>
+                            <p class="text-sm text-gray-500">Doanh nhân</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Lời chứng thực 3 -->
+                <div class="bg-white p-6 rounded-2xl shadow-xl border-t-4 border-yellow-500">
+                    <p class="text-lg italic text-gray-700 mb-4">"Từ khi biết Bình, tôi yên tâm hơn rất nhiều khi
+                        mua **hoa quả sạch** cho con nhỏ. Có nguồn gốc rõ ràng và cam kết không chất bảo quản là điều
+                        tôi tin tưởng nhất."</p>
+                    <div class="flex items-center">
+                        <img class="h-10 w-10 rounded-full object-cover mr-4"
+                            src="https://placehold.co/100x100/f3f4f6/374151?text=C" alt="Avatar Khách hàng C">
+                        <div>
+                            <p class="font-semibold text-gray-900">Cô Mai Hạnh</p>
+                            <p class="text-sm text-gray-500">Nội trợ</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. FAQ Section (Câu hỏi thường gặp) -->
+    <section id="faq" class="py-20 bg-green-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 text-center mb-10">
+                Câu Hỏi Thường Gặp
+            </h2>
+
+            <div id="faq-list" class="space-y-4">
+                <!-- FAQ 1 -->
+                <div class="faq-item bg-white p-4 rounded-xl shadow-md">
+                    <div class="faq-question text-lg font-semibold text-gray-800">
+                        Sản phẩm của Bình có đảm bảo truy xuất nguồn gốc không?
+                        <span class="faq-icon text-green-600 text-3xl leading-none">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p class="text-gray-600">Có. 100% trái cây của chúng tôi, đặc biệt là trái cây nhập khẩu, đều có
+                            giấy tờ chứng minh nguồn gốc (C/O, C/Q) và được kiểm dịch thực vật đầy đủ. Bạn hoàn toàn yên
+                            tâm về sự minh bạch và chất lượng.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ 2 -->
+                <div class="faq-item bg-white p-4 rounded-xl shadow-md">
+                    <div class="faq-question text-lg font-semibold text-gray-800">
+                        Chính sách giao hàng và đổi trả như thế nào?
+                        <span class="faq-icon text-green-600 text-3xl leading-none">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p class="text-gray-600">Chúng tôi giao hàng siêu tốc trong vòng 2 giờ tại nội thành TP.HCM và
+                            Hà Nội. Chúng tôi áp dụng chính sách **1 ĐỔI 1** hoặc hoàn tiền 100% nếu trái cây bị hư
+                            hỏng, dập nát do quá trình vận chuyển hoặc không đạt chất lượng cam kết.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ 3 -->
+                <div class="faq-item bg-white p-4 rounded-xl shadow-md">
+                    <div class="faq-question text-lg font-semibold text-gray-800">
+                        Làm sao để đặt hàng số lượng lớn hoặc giỏ quà biếu?
+                        <span class="faq-icon text-green-600 text-3xl leading-none">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p class="text-gray-600">Bạn vui lòng liên hệ trực tiếp qua Hotline 0901 234 567 hoặc điền chi
+                            tiết vào phần Yêu cầu/Đơn hàng trong Form Liên hệ bên dưới. Chúng tôi có đội ngũ tư vấn
+                            chuyên biệt cho đơn hàng doanh nghiệp và quà biếu theo yêu cầu riêng.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. Storytelling Section (Câu chuyện Thương hiệu) -->
+    <section id="cau-chuyen" class="py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:grid lg:grid-cols-2 lg:gap-12 items-center">
+                <!-- Nội dung Câu chuyện -->
+                <div class="mb-10 lg:mb-0">
+                    <span class="text-sm font-semibold text-yellow-600 uppercase tracking-wider mb-2 block">CÂU CHUYỆN
+                        VỀ Bình</span>
+                    <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
+                        Hành Trình Tìm Kiếm Hương Vị Tinh Khiết
+                    </h2>
+                    <p class="text-gray-700 mb-4 leading-relaxed">
+                        Bình được thành lập từ niềm đam mê tìm kiếm những loại trái cây không chỉ **đẹp mắt** mà còn
+                        phải có hương vị **tinh khiết** nhất. Chúng tôi tin rằng, mỗi loại quả là một món quà của tự
+                        nhiên, chứa đựng màu sắc và dưỡng chất quý giá.
+                    </p>
+                    <p class="text-gray-700 mb-4 leading-relaxed">
+                        Từ những ngày đầu rong ruổi khắp các vườn trái cây, chúng tôi đã xây dựng mối quan hệ trực tiếp
+                        với những nông trại uy tín ở cả trong và ngoài nước. Điều này cho phép chúng tôi kiểm soát chất
+                        lượng nghiêm ngặt, từ khâu gieo trồng, thu hoạch thủ công, cho đến khi sản phẩm tươi ngon nhất
+                        được đóng gói cẩn thận.
+                    </p>
+                    <p class="text-gray-700 italic font-medium">
+                        "Mang vẻ đẹp và hương vị tự nhiên trọn vẹn nhất đến mọi gia đình Việt Nam, đó là sứ mệnh của
+                        Bình."
+                    </p>
+                </div>
+                <!-- Hình ảnh minh họa Câu chuyện/Vườn trái cây -->
+                <div>
+                    <img src="https://placehold.co/800x600/fde047/4b5563?text=V%C6%B0%E1%BB%9Dn+Tr%C3%A1i+C%C3%A2y+H%E1%BB%AFu+C%C6%A1"
+                        alt="Hình ảnh vườn trái cây chất lượng cao hoặc người sáng lập"
+                        onerror="this.onerror=null;this.src='https://placehold.co/800x600/fde047/4b5563?text=V%C6%B0%E1%BB%9Dn+Tr%C3%A1i+C%C3%A2y';"
+                        class="w-full h-auto object-cover rounded-3xl shadow-xl border-4 border-yellow-500">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. Final CTA/Special Offer (Ưu đãi cuối cùng) -->
+    <section id="final-cta" class="py-16 bg-red-600">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-white mb-4">
+                ƯU ĐÃI GIỚI HẠN DÀNH CHO 50 KHÁCH HÀNG ĐẦU TIÊN!
+            </h2>
+            <p class="text-2xl font-bold text-yellow-300 mb-8">
+                GIẢM NGAY 10% TỔNG ĐƠN HÀNG KHI ĐẶT QUA FORM DƯỚI ĐÂY
+            </p>
+
+            <!-- Countdown Timer Placeholder -->
+            <div id="countdown"
+                class="text-4xl font-mono font-bold text-white mb-10 bg-red-700 inline-block px-8 py-4 rounded-xl shadow-lg">
+                <span id="minutes">00</span>:<span id="seconds">00</span>
+            </div>
+
+            <a href="#lien-he"
+                class="inline-flex items-center justify-center px-10 py-4 border border-transparent text-lg font-extrabold rounded-full text-red-600 bg-yellow-300 shadow-2xl hover:bg-white transition duration-300 transform hover:scale-105">
+                NHẬN ƯU ĐÃI 10% NGAY!
+            </a>
+        </div>
+    </section>
+
+    <!-- 6. Call to Action/Contact Form (Phần Liên hệ & Đặt hàng) -->
+    <section id="lien-he" class="py-20 bg-green-600">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">
+                ĐỪNG CHỜ ĐỢI, TRẢI NGHIỆM NGAY!
+            </h2>
+            <p class="text-xl text-green-100 mb-8">
+                Đặt hàng hôm nay để nhận ưu đãi giao hàng miễn phí trong khu vực nội thành.
+            </p>
+
+            <form id="contact-form" class="bg-white p-8 rounded-3xl shadow-2xl space-y-4 text-left">
+                <p id="form-message" class="text-center font-medium hidden text-green-600"></p>
+                <div>
+                    <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Họ tên</label>
+                    <input type="text" id="name" name="name" required
+                        class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500">
+                </div>
+                <div>
+                    <label for="phone" class="block text-sm font-medium text-gray-700 mb-1">Số điện thoại (Bắt
+                        buộc)</label>
+                    <input type="tel" id="phone" name="phone" required
+                        class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500">
+                    <p id="phone-error" class="text-red-500 text-sm mt-1 hidden">Vui lòng nhập số điện thoại hợp lệ.</p>
+                </div>
+                <div>
+                    <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Yêu cầu/Đơn hàng chi
+                        tiết</label>
+                    <textarea id="message" name="message" rows="4"
+                        class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-green-500 focus:border-green-500"></textarea>
+                </div>
+                <button type="submit"
+                    class="cta-button w-full flex items-center justify-center px-6 py-3 border border-transparent text-base font-semibold rounded-full text-white shadow-lg hover:shadow-xl transition duration-150">
+                    GỬI ĐƠN ĐẶT HÀNG / YÊU CẦU
+                </button>
+            </form>
+        </div>
+    </section>
+    <!-- 7. Footer (Chân Trang) -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <!-- Cột 1: Thông tin liên hệ -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-4 text-green-400">LIÊN HỆ</h4>
+                    <p class="text-sm mb-2">Email: info@tangsacfruit.vn</p>
+                    <p class="text-sm mb-2">Hotline: 0901 234 567</p>
+                    <p class="text-sm">Địa chỉ: 123 Đường Tươi Xanh, Quận 1, TP.HCM</p>
+                </div>
+
+                <!-- Cột 2: Danh mục -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-4 text-green-400">DANH MỤC</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#san-pham" class="hover:text-green-300 transition duration-150">Trái Cây Nhập
+                                Khẩu</a></li>
+                        <li><a href="#san-pham" class="hover:text-green-300 transition duration-150">Trái Cây Nội
+                                Địa</a></li>
+                        <li><a href="#" class="hover:text-green-300 transition duration-150">Hộp Quà Biếu</a></li>
+                    </ul>
+                </div>
+
+                <!-- Cột 3: Chính sách -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-4 text-green-400">CHÍNH SÁCH</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#chat-luong" class="hover:text-green-300 transition duration-150">Cam kết Chất
+                                lượng</a></li>
+                        <li><a href="#" class="hover:text-green-300 transition duration-150">Chính sách Đổi trả</a></li>
+                        <li><a href="#" class="hover:text-green-300 transition duration-150">Chính sách Bảo mật</a></li>
+                    </ul>
+                </div>
+
+                <!-- Cột 4: Theo dõi -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-4 text-green-400">THEO DÕI</h4>
+                    <p class="text-sm mb-4">Kết nối với chúng tôi trên mạng xã hội!</p>
+                    <div class="flex space-x-4 text-2xl">
+                        <a href="#" class="hover:text-green-300 transition duration-150">FB</a>
+                        <a href="#" class="hover:text-green-300 transition duration-150">IG</a>
+                        <a href="#" class="hover:text-green-300 transition duration-150">YT</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-10 pt-8 border-t border-gray-700 text-center">
+                <p class="text-sm text-gray-500">&copy; 2025 Trái Cây Bình. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- HTML cho Chatbot Widget -->
+    <div id="chat-container">
+        <!-- Nút bật/tắt Chat -->
+        <div id="chat-toggle-button">
+            <!-- Icon tin nhắn (Message Icon) -->
+            <svg id="chat-icon-open" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+            </svg>
+            <!-- Icon đóng (X Icon) - Dùng để chuyển đổi khi chat mở -->
+            <svg id="chat-icon-close" class="h-8 w-8 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+        </div>
+
+        <!-- Cửa sổ Chat -->
+        <div id="chat-window" class="mt-4 hidden">
+            <div id="chat-header">
+                Chatbot Bình
+                <button onclick="toggleChat()" class="p-1 rounded-full hover:bg-white/20 transition duration-150">
+                    <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+            <div id="chat-body" class="flex flex-col">
+                <!-- Tin nhắn và tùy chọn sẽ được thêm vào đây bằng JS -->
+            </div>
+            <div id="chat-input-area">
+                <!-- Có thể thêm input/send button ở đây nếu cần, nhưng hiện tại là kịch bản nên sẽ ẩn -->
+            </div>
+        </div>
+    </div>
+    <!-- Kết thúc Chatbot Widget -->
+
+
+    <!-- JavaScript cho tương tác UI và Tải Dữ liệu Google Sheet -->
+    <script src="script.js"></script>
+</body>
+
+</html>
